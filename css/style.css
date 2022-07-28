@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Poppins:wght@500;700&display=swap');
+
+:root {
+  /* colors */
+  --body-color: #0d0d0d;
+  --text-color: #f2f2f2;
+  --text-color-alt: #cccccc;
+  --link-color: #7844e9;
+  --link-color-alt: #571ADB;
+
+  /* fonts */
+  --title-font: 'Poppins', sans-serif;
+  --secondary-font: 'IBM Plex Mono', monospace;
+
+  /* font weight */
+  --medium-font: 500;
+  --bold-font: 700;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,ul,p {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-weight: var(--medium-font);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+  color: var(--text-color);
+  font-family: var(--title-font);
+}
+
+.area__links {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  height: 100vh;
+}
+
+.links__img {
+  width: 110px;
+  outline: 4px solid var(--text-color-alt);
+  border-radius: 50%;
+}
+
+.links__title {
+  margin-top: 24px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.links__user {
+  display: block;
+  font-family: var(--secondary-font);
+  font-weight: var(--medium-font);
+  color: var(--text-color-alt);
+  font-size: 16px;
+  margin: 32px 0;
+}
+
+.links__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 48px 0;
+}
+
+.links__item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 53px;
+  width: 300px;
+  border-radius: 4px;
+  color: var(--text-color);
+  background-color: var(--link-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 0 var(--link-color-alt);
+}
+
+.links__icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+footer {
+  font-family: var(--secondary-font);
+  font-size: 12px;
+  font-weight: var(--medium-font);
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+footer a {
+  color: var(--link-color);
+  transition: .3s;
+}
+
+footer a:hover {
+  color: var(--link-color-alt);
+}
+
+.footer-icon {
+  font-size: 14px;
+}
