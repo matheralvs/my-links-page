@@ -57,21 +57,22 @@ body {
 
 .area__links {
   width: 300px;
+  height: 100vh;
   text-align: center;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 25px 0;
   height: 100vh;
 }
 
 .links__img {
-  width: 110px;
+  width: 100px;
   outline: 4px solid var(--text-color-alt);
   border-radius: 50%;
 }
 
 .links__title {
-  margin-top: 24px;
-  font-size: 32px;
+  margin-top: 20px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -81,18 +82,18 @@ body {
   font-weight: var(--medium-font);
   color: var(--text-color-alt);
   font-size: 16px;
-  margin: 32px 0;
+  margin: 20px 0;
 }
 
 .links__list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin: 48px 0;
+  margin: 35px 0;
 }
 
 .links__item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 53px;
@@ -125,8 +126,4 @@ footer a {
 
 footer a:hover {
   color: var(--link-color-alt);
-}
-
-.footer-icon {
-  font-size: 14px;
 }
